@@ -4,6 +4,7 @@ open terminal in root directory
 run sudo docker-compose up -d --build
 if data source does not initialize, run sudo docker-compose down and sudo docker-compose up -d --build again
 navigate to localhost/api/<any table name> e.g. employees to verify data source is active 
+install jest with sudo npm install --save-dev ts-jest
 to run jest tests open terminal in backend/src  and run command <npm test>
 to run postman tests, ensure postman is installed
 open postman application
